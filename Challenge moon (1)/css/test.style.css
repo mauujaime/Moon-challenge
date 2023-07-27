@@ -1,0 +1,258 @@
+@media (min-width: 992px){
+    /**Exercise 1**/
+    .hero-space{
+        background-image: url(/images/final-frontier_large.jpg);
+        width: 100%;
+        height: 50vh;
+        text-align: center;
+        background-position: center;
+        background-size: cover;
+    }
+
+    a.title-figure,
+    a.subtitle-figure{
+        color: #fff;
+    }
+    a.title-figure:hover,
+    a.subtitle-figure:hover{
+        text-decoration: none;
+    }
+
+
+    .hero-luna{
+        background-image: url(/images/luna_large.jpg);
+        width: 100%;
+        height: 50vh;
+        text-align: center;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hero-images{
+        display: flex;
+        height: auto;
+    }
+
+    .h2.title-figure{
+        margin-top: 150px;
+    }
+
+    .text-luna{
+        margin: 150px;
+    }
+
+ /**Exercise 1**/
+
+ /**Exercise 2**/
+
+
+ .timeline-3{
+    margin-top: -295px;
+ }
+ .timeline-5{
+    margin-top: -48px;
+ }
+ .timeline-item{
+     height: fit-content;
+ }
+ .col-lg-6 {
+    display: grid;
+    grid-template-columns: 100% 100%;
+    column-gap: 20px;
+
+}
+
+/**Exercise 3**/
+    .row-1,
+    .row-3,
+    .row-5,
+    .row-4 {
+        display: flex;
+        flex-direction: row;
+        }
+
+    .row-2 {
+            display: flex;
+            flex-direction: row;
+        }
+
+    .gallery-photo figure {
+            background-position: 50%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100%;
+        }
+    .image-moon-1,
+    .image-moon-4,
+    .image-moon-5,
+    .image-moon-9 {
+            background-repeat: no-repeat;
+            width: 384px !important;
+        }
+
+    .image-moon-2,
+    .image-moon-3,
+    .image-moon-6,
+    .image-moon-10 {
+            background-repeat: no-repeat;
+            width: 726px !important;
+        }
+
+
+    .image-moon-7,
+    .image-moon-8 {
+            background-repeat: no-repeat;
+            width: 918px !important;
+        }
+
+
+
+
+
+
+
+}
+
+
+@media (max-width:993px){
+/**Exercise 1**/
+    .hero-space{
+        background-image: url(/images/final-frontier_small.jpg);
+        width: 100%;
+        height: 50vh;
+        text-align: center;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .hero-luna{
+        background-image: url(/images/luna_small.jpg);
+        width: 100%;
+        height: 50vh;
+        text-align: center;
+        background-position: center;
+        background-size: cover;
+    }
+
+
+    a.title-figure,
+    a.subtitle-figure{
+        color: #fff;
+    }
+    a.title-figure:hover,
+    a.subtitle-figure:hover{
+        text-decoration: none;
+    }
+
+
+    .hero-images{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .h2.title-figure,
+    .text-luna{
+        margin-top: 150px;
+    }
+
+/**Exercise 1**/
+
+/**Exercise 3**/
+.row-1,
+.row-3,
+.row-5,
+.row-4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-2 {
+    display: flex;
+    flex-direction: row;
+}
+.gallery-photo figure {
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.image-moon-1,
+.image-moon-4,
+.image-moon-5,
+.image-moon-9 {
+    background-repeat: no-repeat;
+    width: 297px !important;}
+
+.image-moon-2,
+.image-moon-3,
+.image-moon-6,
+.image-moon-10 {
+        background-repeat: no-repeat;
+        width: 633px !important;
+    }
+
+
+ .image-moon-7,
+.image-moon-8 {
+        background-repeat: no-repeat;
+        width: 465px !important;
+    }
+
+
+
+}
+
+@media (max-width: 736px) {
+
+    /* Exercise 3*/
+    .gallery-photo {
+        height: 207px;
+        width: auto;
+    }
+
+    .row-1,
+    .row-3,
+    .row-5,
+    .row-4 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .row-2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .gallery-photo figure {
+        background-position: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+
+    .image-moon-1,
+    .image-moon-4,
+    .image-moon-5,
+    .image-moon-9 {
+        background-repeat: no-repeat;
+        width: 297px !important;
+    }
+
+    .image-moon-2,
+    .image-moon-3,
+    .image-moon-6,
+    .image-moon-10 {
+        background-repeat: no-repeat;
+        width: 633px !important;
+    }
+
+    .image-moon-7,
+    .image-moon-8 {
+        background-repeat: no-repeat;
+        width: 465px !important;
+    }
+}
